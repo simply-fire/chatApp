@@ -1,0 +1,12 @@
+.MuiOutlinedInput-notchedOutline {
+    border-color: #9DB2BF !important;
+    color: #9DB2BF;
+}
+
+::placeholder {
+    color: #9DB2BF;
+}
+
+#inputID::placeholder {
+    color: #9DB2BF;
+}

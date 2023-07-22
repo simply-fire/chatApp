@@ -1,28 +1,21 @@
-import "./styles.css";
-import Editor from "./Editor";
+import './app.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Main from './components/Main';
+import JoinRoom from './components/JoinRoom';
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Rich Text Example</h1>
-      <p>Note: this is an experimental build of Lexical</p>
-      <Editor />
-      <div className="other">
-        <h2>Other Examples</h2>
-        <ul>
-          <li>
-            <a
-              href="https://codesandbox.io/s/lexical-plain-text-example-g932e"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Plain text example
-            </a>
-          </li>
-        </ul>
-      </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/room' element={<Main />} />
+          <Route path='/' element={<JoinRoom />} />
 
-    </div>
+        </Routes>
+      </BrowserRouter>
+
+    </>
+
   );
 }
 
