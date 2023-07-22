@@ -6,7 +6,7 @@ Clone or fork this repo: https://github.com/simply-fire/chatApp.git
 
 >git clone "https://github.com/simply-fire/chatApp.git"
 
-##Backend
+## Backend
 
 ### Install all dependencies.
 		npm install
