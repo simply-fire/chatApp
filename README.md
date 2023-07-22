@@ -21,4 +21,12 @@ Clone or fork this repo: https://github.com/simply-fire/chatApp.git
 
 ### Run your APP
 		cd frontend
-		npm run dev.
+  		npm run dev.
+    
+## User-Interface
+![1](https://github.com/simply-fire/chatApp/assets/99673296/66cc60cc-be1f-4a41-91a8-c06451625470)
+
+![2](https://github.com/simply-fire/chatApp/assets/99673296/38a419a6-bd82-4028-8249-e7089b2b383a)
+
+![3](https://github.com/simply-fire/chatApp/assets/99673296/cd83d93b-e60f-4951-88bf-3fdec76a0bda)
+
